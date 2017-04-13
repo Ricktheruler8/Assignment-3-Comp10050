@@ -129,20 +129,19 @@ void createBoard(int boardSize, struct slot **upLeft, struct slot **upRight, str
 			//For each slot it sets up the row and column number
 			for(int j=0;j < boardSize; j++){
 
-				int max=10000,min=1; // initialise three random numbers with min value 1 and max 10000. max random high to lower chance of equal numbers
+				int max=4,min=1; // initialise three random numbers with min value 1 and max 10000. max random high to lower chance of equal numbers
 				int rng = rand()%(max-min)+min;
-				int rng1 = rand()%(max-min)+min;
-				int rng2 = rand()%(max-min)+min;
 
-				if(rng>rng1 && rng>rng2){ // if rng is greater than rng1 and rng2 slot[i].Slot_Type will get assigned city type.
+
+				if(rng == 1){ // if rng is greater than rng1 and rng2 slot[i].Slot_Type will get assigned city type.
 
 					strcpy(board[i][j].Slot_Type,City);
 				}
-				else if(rng1>rng&&rng1>rng2){ // same as above except rng1 and Ground will be assigned
+				else if(rng == 2){ // same as above except rng1 and Ground will be assigned
 
 					strcpy(board[i][j].Slot_Type,Ground);
 				}
-				else if(rng2>rng1&&rng2>rng){ // same except rng2 and Hill will be assigned
+				else if(rng == 3){ // same except rng2 and Hill will be assigned
 
 					strcpy(board[i][j].Slot_Type,Hill);
 				}

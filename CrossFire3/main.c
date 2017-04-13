@@ -77,10 +77,19 @@ int main(void){
 						printf("(%d, %d, %s)-> ",foundSlots[i].row, foundSlots[i].column,foundSlots[i].Slot_Type);
 					}
 				}
+				printf("\n\n");
+				slotAdj(board); // test slot adjacency function
 
-				printf("\n(%d, %d) type: %s\n", board[5][3].row,board[5][3].column,board[5][3].Slot_Type);
+				checkAdjSlot(board, row, column); // test adjacent slot function
 				fflush(stdout);
 
+				for(size_t i = 1; i<boardSize;i++){
+
+						for(size_t j = 1; j<boardSize; j++){
+
+							printf("\n(%d, %d, %s)-> ", board[i][j].row, board[i][j].column, board[i][j].Slot_Type); // test slot assignment
+						}
+					}
 	int maxPlayers; // maxPlayers is the variable that the user inputs max 6 used as index size for struct array player
 
 	printf("How many players will play (Maximum 6!)\n"); // prompt user
@@ -181,16 +190,23 @@ int main(void){
 
 			int a = player[i].Current_PosNo; // variable a is player i current position number, used throughout this section to move player and attack
 
+			int pRow = player[i].pRow;
+			int pCol = player[i].pCol;
+
 					printf("\n"); // used to format printed information makes it easier for user to read
 					printf("Current Player: player[%zd]. Where would you like to move?\n",i); // prints current player and prompt
 					fflush(stdout);
 					printf("\n");
 
-					printf("Player current position is %d",a); // prints current position makes it easier to keep track of position and make a move
+					printf("Player current position is (%d, %d) ",pRow,pCol); // prints current position makes it easier to keep track of position and make a move
 
 					printf("\n");
 
-					printf("Press 1 to move down or 2 to move up or press 3 to attack nearest player\n"); // prompt user
+					if(board[pRow][pCol].adj == 4){
+
+						printf();
+					}
+					//printf("Press 1 to move down or 2 to move up or press 3 to attack nearest player\n"); // prompt user
 					fflush(stdout);
 
 					int input; // variable for below conditional statements is used for player decision

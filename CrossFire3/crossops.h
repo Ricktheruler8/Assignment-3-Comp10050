@@ -59,7 +59,7 @@ struct slot{
 
 	int counter; // counter used to keep track of if a slot is occupied
 
-	int adj; // slots with adjacency of 4
+	char adj[5]; // slots with adjacency of 4
 
 }slot;
 
@@ -87,6 +87,7 @@ void ReverseModMag(struct Player *player);
 void Attack(struct Player *attacker,struct Player *attacked);
 void farAttack(struct Player *attacker, struct Player *attacked);
 void magicAttack(struct Player *attacker, struct Player *attacked);
-void slotAdj(struct slot ** board, int boardsize);
+void slotAdj(struct slot ** board);
+void checkAdjSlot(struct slot **board, int prow, int pcol);
 
 #endif /* CROSSOPS_H_ */
