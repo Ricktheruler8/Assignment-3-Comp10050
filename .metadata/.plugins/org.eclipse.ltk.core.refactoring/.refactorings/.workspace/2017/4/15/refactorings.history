@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;CrossFire3/boardOp.c&apos;" deleteContents="false" description="Delete resource &apos;CrossFire3/boardOp.c&apos;" element1="/CrossFire3/boardOp.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1491856561997"/>&#x0A;<refactoring comment="Delete resource &apos;CrossFire3/userInt.c&apos;" deleteContents="false" description="Delete resource &apos;CrossFire3/userInt.c&apos;" element1="/CrossFire3/userInt.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1491856573723"/>
-</session>
