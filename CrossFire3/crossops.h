@@ -26,8 +26,7 @@ struct Player{
 
 		char Player_Name[50];
 		char Player_Type[50];
-		char Current_Pos[50]; // is assigned slot type for player
-		int Current_PosNo; // is assigned number corresponding to index value of slot type e.g. if slot[2].Slot_Type is City, player.Current_Pos will = City and player.Current_Pos will = 2
+		char Current_Pos[7]; // is assigned slot type for player
 		float Life_Points; // is assigned 100 for player life points
 		int Smartness; // is assigned a value depending on player.Player_Type.
 		int Strength; // see ^
@@ -88,6 +87,7 @@ void Attack(struct Player *attacker,struct Player *attacked);
 void farAttack(struct Player *attacker, struct Player *attacked);
 void magicAttack(struct Player *attacker, struct Player *attacked);
 void slotAdj(struct slot ** board);
-void checkAdjSlot(struct slot **board, int prow, int pcol);
-
+int checkAdjSlot(struct slot **board, int prow, int pcol);
+void scoutPlayer(int row, int column, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+void movement(int move, int row, int column, int pnum, struct slot **board, struct Player *player);
 #endif /* CROSSOPS_H_ */

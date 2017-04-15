@@ -1,0 +1,1 @@
+slotTypes.o: ../slotTypes.c

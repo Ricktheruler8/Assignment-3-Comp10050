@@ -12,15 +12,6 @@
 
 extern char Hill[5],Ground[7],City[5];
 
-/*
- * This function creates the board
- * Parameters:
- * 	size: the size of the board
- * 	upLeft: pointer of pointer to slot at position (0, 0)
- * 	upRight: pointer of pointer to slot at position (0, boardSize -1)
- * 	downLeft: pointer of pointer to slot at position (boardSsize -1, 0)
- * 	upLeft: pointer of pointer to slot at position (boardSize - 1, boardSize -1)
- */
 void createBoard(int boardSize, struct slot **upLeft, struct slot **upRight, struct slot **downLeft, struct slot **downRight, struct slot ** board){
 
 
@@ -129,6 +120,9 @@ void createBoard(int boardSize, struct slot **upLeft, struct slot **upRight, str
 			//For each slot it sets up the row and column number
 			for(int j=0;j < boardSize; j++){
 
+				board[i][j].Slot_Tag = -1;
+				board[i][j].counter = 0;
+
 				int max=4,min=1; // initialise three random numbers with min value 1 and max 10000. max random high to lower chance of equal numbers
 				int rng = rand()%(max-min)+min;
 
@@ -147,7 +141,6 @@ void createBoard(int boardSize, struct slot **upLeft, struct slot **upRight, str
 				}
 			}
 		}
-
 	}
 
 struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot){
@@ -155,8 +148,6 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 	bool found = false;
 
 	struct slot * currentSlot = initialSlot;
-
-	printf("\nFunction reachDesiredElement invoked\n");
 
 	printf("Initial slot (%d, %d) -> \n",initialSlot->row,initialSlot->column);
 
@@ -195,7 +186,7 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 		}
 
 		if(currentSlot->column == column && currentSlot->row == row){
-			printf("Found\n");
+			//printf("Found\n");
 			found = true;
 
 		}
