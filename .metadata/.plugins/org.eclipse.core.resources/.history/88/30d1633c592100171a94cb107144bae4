@@ -1,0 +1,19 @@
+/*
+ * scoutPlayer.c
+ *
+ *  Created on: 14 Apr 2017
+ *      Author: richie
+ */
+#include<stdio.h>
+#include<stdlib.h>
+#include"crossops.h"
+
+
+void scoutPlayer(struct slot * foundSlots, int count){
+
+	for(size_t i = 0;i < count;i++){
+
+		if(foundSlots[i].counter == 0)
+	}
+}
+

@@ -1,0 +1,37 @@
+/*
+ * movement.c
+ *
+ *  Created on: 15 Apr 2017
+ *      Author: richie
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include"crossops.h"
+
+char UP = 'w', DOWN = 's', LEFT = 'a', RIGHT = 'd';
+
+void movement(int move, struct slot **board, struct Player *player){
+
+	char walk;
+	int row = player->pRow;
+	int column = player->pCol;
+
+	switch(move){
+
+	case 1:
+
+
+		printf("Press 'w' = up, 's' = down, 'a' = left, 'd' = right\n");
+		scanf("%c",walk);
+
+		if(strcmp(walk,UP)==0){
+
+
+
+			player->pRow -= 1;
+			strcpy(player->Current_Pos,board[row-1][column].Slot_Type);
+		}
+	}
+}
