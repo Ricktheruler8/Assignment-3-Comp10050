@@ -157,20 +157,46 @@ int main(void){
 						puts("\n");
 
 						struct slot *foundSlots;
+						struct slot *foundSlotsFar;
+						struct enemy *foundEnemies;
 
 						foundSlots = calloc(49, sizeof(struct slot ));
+						foundSlotsFar = calloc(49, sizeof(struct slot ));
+						foundEnemies = calloc(49, sizeof(struct enemy));
 
-						scoutPlayer(&player[i], foundSlots, upLeft, upRight, downLeft, downRight);
+						// ATTACK FUNCT HERE!!! use foundEnemies switch()scout for enemies and move or scout for enemies and attack
+						int choice = 0;
 
+						puts("Would you like to scout for enemies and move(1) or scout for enemies and attack(2)\n");
+						scanf("%d%*c",&choice);
 
+						switch(choice){
+
+							case 1:
+
+								scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+
+								puts("\n");
+
+								int adjMove = checkAdjSlot(board, pRow, pCol);
+
+								puts("\n");
+
+								movement(adjMove, pRow, pCol, i, board, &player[i]);
+
+								fflush(stdout);
+								break;
+
+							case 2:
+
+								switch(foundEnemies->near_Far){
+
+									case 1:
+								}
+						}
 						puts("\n");
 
-						int adjMove = checkAdjSlot(board, pRow, pCol);
 
-						puts("\n");
-						movement(adjMove, pRow, pCol, i, board, &player[i]);
-						//free(foundSlots);
-						fflush(stdout);
 
 			}
 			puts("\n\n");
