@@ -148,7 +148,7 @@ int main(void){
 				int pCol = player[i].pCol;
 
 						puts("\n\n"); // used to format printed information makes it easier for user to read
-						printf("Current Player: player[%zd]. Where would you like to move?\n",i); // prints current player and prompt
+						//printf("Current Player: player[%zd]. Where would you like to move?\n",i); // prints current player and prompt
 						fflush(stdout);
 						puts("\n");
 
@@ -170,11 +170,15 @@ int main(void){
 						puts("Would you like to scout for enemies and move(1) or scout for enemies and attack(2)\n");
 						scanf("%d%*c",&choice);
 
+						int distChoice = 0;
+						int enemyNcount, enemyFcount;
+
+
 						switch(choice){
 
 							case 1:
 
-								scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+								scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
 
 								puts("\n");
 
@@ -189,34 +193,176 @@ int main(void){
 
 							case 2:
 
-								switch(foundEnemies->near_Far){
+								scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+
+								//printf("foundEnemiesFcount: %d\nNcount: %d\n")
+
+								if(enemyNcount > 0 && enemyFcount > 0){
+
+									puts("You have near and far enemies to attack, enter (1) for near and (2) for far attack\n");
+									scanf("%d%*c",&distChoice);
+								}
+								else if(enemyNcount > 0 && enemyFcount == 0){
+
+									distChoice = 1;
+								}
+								else if(enemyNcount == 0 && enemyFcount > 0){
+
+									distChoice = 2;
+								}
+
+								printf("\ndistChoice: %d\n",distChoice);
+								switch(distChoice){
 
 									case 1:
+
+										if(enemyNcount == 1){
+
+
+												int a = 0;
+												int b = enemyNcount + enemyFcount;
+
+												for(size_t j = 0; j<b;++j){
+
+													if(foundEnemies[j].near_Far == 1){
+
+														a = foundEnemies[j].enemyTag;
+													}
+												}
+
+												if(player[i].Smartness + player[i].Magic_Skills > 150){
+
+													magicAttack(&player[i], &player[a]);
+
+													printf("Player[%zd] attacked Player[%d]",i,a);
+												}
+												else{
+
+													Attack(&player[i], &player[a]);
+
+													printf("Player[%zd] attacked Player[%d]",i,a);
+												}
+										}
+										else{
+
+											int maxEnemies = enemyNcount + enemyFcount;
+
+
+											for(size_t j = 0; j<maxEnemies;++j){
+
+												if(foundEnemies[j].near_Far == 1){
+
+													puts("List of nearby enemies\nNumber inside [] is the player tag\n");
+													printf("Player[%d](%d, %d)\n",foundEnemies[j].enemyTag,foundEnemies[j].enemyRow,foundEnemies[j].enemyCol);
+
+													int tagChoice;
+													puts("Enter the enemy tag you would like to attack\n");
+													scanf("%d%*c",&tagChoice);
+
+													if(player[i].Smartness + player[i].Magic_Skills > 150){
+
+														magicAttack(&player[i], &player[tagChoice]);
+
+														printf("Player[%zd] attacked Player[%d]",i,tagChoice);
+													}
+													else{
+
+														Attack(&player[i], &player[tagChoice]);
+
+														printf("Player[%zd] attacked Player[%d]",i,tagChoice);
+													}
+												}
+											}
+										}
+										break;
+
+									case 2:
+
+										if(enemyFcount == 1){
+
+
+											int a = 0;
+											int b = enemyNcount + enemyFcount;
+
+											for(size_t j = 0; j<b;++j){
+
+												if(foundEnemies[j].near_Far == 2){
+
+													a = foundEnemies[j].enemyTag;
+												}
+											}
+
+											if(player[i].Smartness + player[i].Magic_Skills > 150){
+
+												magicAttack(&player[i], &player[a]);
+
+												printf("Player[%zd] attacked Player[%d]",i,a);
+											}
+											else{
+
+												farAttack(&player[i], &player[a]);
+
+												printf("Player[%zd] attacked Player[%d]",i,a);
+											}
+										}
+										else{
+
+											int maxEnemies = enemyNcount + enemyFcount;
+
+											for(size_t j = 0; j<maxEnemies;++j){
+
+												if(foundEnemies[j].near_Far == 2){
+
+													puts("List of nearby enemies\nNumber inside [] is the player tag\n");
+													printf("Player[%d](%d, %d)\n",foundEnemies[j].enemyTag,foundEnemies[j].enemyRow,foundEnemies[j].enemyCol);
+
+													int tagChoice;
+													puts("Enter the enemy tag you would like to attack\n");
+													scanf("%d%*c",&tagChoice);
+
+													if(player[i].Smartness + player[i].Magic_Skills > 150){
+
+														magicAttack(&player[i], &player[tagChoice]);
+
+														printf("Player[%zd] attacked Player[%d]",i,tagChoice);
+													}
+													else{
+
+														farAttack(&player[i], &player[tagChoice]);
+
+														printf("Player[%zd] attacked Player[%d]",i,tagChoice);
+													}
+												}
+											}
+										}
 								}
 						}
 						puts("\n");
-
-
-
 			}
 			puts("\n\n");
 			for(size_t i=0;i<maxPlayers;i++){ // loop prints values assigned in previous section. Just to make sure everything is working. can be removed in final version.
 
-				printf("Player current position is: (%d, %d) position type: %s\n",player[i].pRow,player[i].pCol,player[i].Current_Pos); // prints current position number and slot type
+				printf("\n%s (%s, %.1f) position is: (%d, %d) position type: %s\n", player[i].Player_Name, player[i].Player_Type, player[i].Life_Points, player[i].pRow, player[i].pCol, player[i].Current_Pos); // prints current position number and slot type
 				fflush(stdout);
 
 			} // end loop
 
+			/*for(size_t i = 0;i<maxPlayers;i++){ // iterates through each player and prints results for turn just made
+
+				printf("%s (%s, %.1f)\n",player[i].Player_Name,player[i].Player_Type,player[i].Life_Points); // prints name, type and life points according to assignment requirements
+				fflush(stdout);
+			}*/
+
 			puts("end p");
 			scanf("%d%*c",&input);
 
-			for(size_t i = 0;i<boardSize;++i){
+		/*	for(size_t i = 0;i<boardSize;++i){
 
 					for(size_t j = 0;j<boardSize;++j){
 
 						printf("\nslot(%d, %d);  slot tag: %d, slot counter: %d",board[i][j].row,board[i][j].column,board[i][j].Slot_Tag,board[i][j].counter);
 					}
-				}
+				}*/
 
 		}while(input > 1);
 

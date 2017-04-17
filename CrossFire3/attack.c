@@ -9,8 +9,7 @@
 #include<stdlib.h>
 #include"crossops.h"
 
-void Attack(struct Player *attacker, struct Player *attacked)
-{
+void Attack(struct Player *attacker, struct Player *attacked){
 	float St = attacked->Strength;	//float to hold the value of the attacked players strength.
 
 	if(attacked->Strength <= 70)		//If the attacked players strength is less than or equal to 70 then the attacked player gets half of there strength taken

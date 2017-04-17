@@ -14,7 +14,7 @@ bool explored[BOARD_SIZE][BOARD_SIZE];
 int count =0;
 int near = 1;
 int far = 5;
-void scoutPlayer(struct Player *player,struct slot *foundSlots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight){
+void scoutPlayer( int * enemyNcount, int * enemyFcount, struct Player *player,struct slot *foundSlots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight){
 
 
 	int row = player->pRow;
@@ -42,6 +42,14 @@ void scoutPlayer(struct Player *player,struct slot *foundSlots, struct slot *fou
 
 	//printf("\n\nFunction findSlotsinvoked:\n");
 
+	/*struct enemy{
+
+		int enemyRow;
+		int enemyCol;
+		int enemyTag;
+		int near_Far;
+	};*/
+
 	if(currSlot!= NULL){
 
 
@@ -59,6 +67,11 @@ void scoutPlayer(struct Player *player,struct slot *foundSlots, struct slot *fou
 					printf("\nEnemy found for near attack\nLocation: (%d, %d)\nEnemy: player[%d]\n", foundSlots[i].row, foundSlots[i].column, foundSlots[i].Slot_Tag);
 					fflush(stdout);
 
+					foundEnemies[i].enemyRow = foundSlots[i].row;
+					foundEnemies[i].enemyCol = foundSlots[i].column;
+					foundEnemies[i].enemyTag = foundSlots[i].Slot_Tag;
+					foundEnemies[i].near_Far = 1;
+					enemyNcount += 1;
 				}
 			}
 
@@ -75,6 +88,12 @@ void scoutPlayer(struct Player *player,struct slot *foundSlots, struct slot *fou
 
 					printf("\nEnemy found for far attack\nLocation: (%d, %d)\nEnemy: player[%d]\n", foundSlotsFar[i].row, foundSlotsFar[i].column, foundSlotsFar[i].Slot_Tag);
 					fflush(stdout);
+
+					foundEnemies[i].enemyRow = foundSlots[i].row;
+					foundEnemies[i].enemyCol = foundSlots[i].column;
+					foundEnemies[i].enemyTag = foundSlots[i].Slot_Tag;
+					foundEnemies[i].near_Far = 2;
+					enemyFcount += 1;
 
 				}
 			}
