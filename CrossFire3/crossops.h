@@ -37,6 +37,14 @@ struct Player{
 		int pCol;
 };
 
+struct enemy{
+
+	int enemyRow;
+	int enemyCol;
+	int enemyTag;
+	int near_Far;
+};
+
 struct slot{
 	//row number
 	int row;
@@ -88,6 +96,6 @@ void farAttack(struct Player *attacker, struct Player *attacked);
 void magicAttack(struct Player *attacker, struct Player *attacked);
 void slotAdj(struct slot ** board);
 int checkAdjSlot(struct slot **board, int prow, int pcol);
-void scoutPlayer(int row, int column, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
 void movement(int move, int row, int column, int pnum, struct slot **board, struct Player *player);
 #endif /* CROSSOPS_H_ */

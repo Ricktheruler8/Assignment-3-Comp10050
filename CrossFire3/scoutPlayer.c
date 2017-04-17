@@ -9,17 +9,16 @@
 #include "crossops.h"
 
 struct slot* currSlot = NULL;
-struct slot *foundSlotsNear;
-struct slot *foundSlotsFar;
+
 bool explored[BOARD_SIZE][BOARD_SIZE];
 int count =0;
-int near = 1;
-int far = 5;
-int nearTracker = 0;
-int farTracker = 0;
+const int far = 4;
 
-void scoutPlayer(int row, int column, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight){
+void scoutPlayer(struct Player *player,struct slot *foundSlots, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight){
 
+
+	int row = player->pRow;
+	int column = player->pCol;
 
 	if(row >= BOARD_SIZE/2){
 		if(column >= BOARD_SIZE/2)
@@ -41,57 +40,27 @@ void scoutPlayer(int row, int column, struct slot * upLeft, struct slot * upRigh
 		}
 	}
 
-	foundSlotsNear = malloc(BOARD_SIZE * BOARD_SIZE * sizeof(struct slot ));
 	//printf("\n\nFunction findSlotsinvoked:\n");
 
 	if(currSlot!= NULL){
 
-		findSlots(near,0, currSlot, foundSlotsNear, &count, explored);
+		count = 0; // initialize count to 0 on every function call. Errors occurring with count stacking on each function call eventually going beyond memory bounds of foundSlots causing errors. Took a day to find this bug :(
+
+		findSlots(far,0, currSlot, foundSlots, &count, explored);
+
+		//printf("\nCOUNT: %d\n",count); was used to find bug in this function ^ above for details
 
 		for(size_t i=0; i<count; i++){
 
-			if(foundSlotsNear[i].counter == 0){
+			printf("\n%zd\n",i);
 
-				//printf("There are no enemies for a near attack\n");
-			}
-			else if(foundSlotsNear[i].counter == 1){
+			if(foundSlots[i].counter == 1 && foundSlots[i].row != row && foundSlots[i].column != column){
 
-				int enemy = foundSlotsNear[i].Slot_Tag;
-				int enemyRow = foundSlotsNear[i].row;
-				int enemyCol = foundSlotsNear[i].column;
-
-				printf("Enemy found for near attack\nLocation: (%d, %d)\nEnemy: player[%d]", enemyRow,enemyCol,enemy);
+				printf("\nEnemy found for attack\nLocation: (%d, %d)\nEnemy: player[%d]\n", foundSlots[i].row, foundSlots[i].column, foundSlots[i].Slot_Tag);
 				fflush(stdout);
+
 			}
 		}
 	}
-	//free(foundSlotsNear);
-
-	foundSlotsFar = malloc(BOARD_SIZE * BOARD_SIZE * sizeof(struct slot ));
-		//printf("\n\nFunction findSlotsinvoked:\n");
-
-		if(currSlot!= NULL){
-
-			findSlots(far,2, currSlot, foundSlotsFar, &count, explored);
-
-			for(size_t i=0; i<count; i++){
-
-				if(foundSlotsFar[i].counter == 0){
-
-
-					//printf("There are no enemies for a far attack\n");
-				}
-				else if(foundSlotsFar[i].counter == 1 && foundSlotsFar[i].row != row && foundSlotsFar[i].column != column){
-
-					int enemy = foundSlotsFar[i].Slot_Tag;
-					int enemyRow = foundSlotsFar[i].row;
-					int enemyCol = foundSlotsFar[i].column;
-
-					printf("Enemy found for far attack\nLocation: (%d, %d)\nEnemy: player[%d]\n", enemyRow,enemyCol,enemy);
-					fflush(stdout);
-				}
-			}
-		}
-		//free(foundSlotsFar);
 }
 

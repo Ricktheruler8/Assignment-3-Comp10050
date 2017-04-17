@@ -12,11 +12,11 @@
 
 void OGRE(struct Player *player){ // Assigns correct stats to ogre type player
 
-	int max=100,min=80;
+	int max=101,min=80;
 
 	int rngD = rand()%(max-min)+min;
-	int rngL = rand()%30 + 1;
-	int rngS = rand()%20 + 1;
+	int rngL = rand()%31 + 1;
+	int rngS = rand()%21 + 1;
 	int rngSt = rand()%(max-min)+min;
 
 	player->Life_Points = 100.0;

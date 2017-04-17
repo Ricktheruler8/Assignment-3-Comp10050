@@ -149,7 +149,7 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 
 	struct slot * currentSlot = initialSlot;
 
-	printf("Initial slot (%d, %d) -> \n",initialSlot->row,initialSlot->column);
+	//printf("Initial slot (%d, %d) -> \n",initialSlot->row,initialSlot->column);
 
 
 	while(found == false){
@@ -159,14 +159,14 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 
 			currentSlot = currentSlot->up;
 
-			printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
+			//printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
 		}
 
 		if(currentSlot->row < row){
 
 			currentSlot = currentSlot->down;
 
-			printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
+			//printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
 
 		}
 
@@ -174,14 +174,14 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 
 			currentSlot = currentSlot->left;
 
-			printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
+			//printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
 		}
 
 		if(currentSlot->column < column){
 
 			currentSlot = currentSlot->right;
 
-			printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
+			//printf("Current slot (%d, %d, %s) -> \n",currentSlot->row,currentSlot->column,currentSlot->Slot_Type);
 
 		}
 
@@ -197,8 +197,6 @@ struct slot * reachDesiredElement(int row, int column, struct slot * initialSlot
 }
 
 void findSlots(int reqDist, int currDist,  struct slot * currSlot, struct slot * foundSlots, int * count,  bool explored[BOARD_SIZE][BOARD_SIZE]){
-
-
 
 	//The base case: the current slot is at the required distance from the starting slot
 	if(currDist == reqDist){

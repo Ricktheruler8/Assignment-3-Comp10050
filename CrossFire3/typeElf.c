@@ -12,13 +12,13 @@
 
 void ELF(struct Player *player){ // Assigns correct stats to elf type player
 
-	int max=100,min=60,minM=51,maxM=79,minS=70,maxS=100;
+	int max=101,min=60,minM=51,maxM=80,minS=70,maxS=101;
 
-	int rngD = rand()%100 + 1;
+	int rngD = rand()%101 + 1;
 	int rngL = rand()%(max-min)+min;
 	int rngM = rand()%(maxM-minM)+minM;
 	int rngS = rand()%(maxS-minS)+minS;
-	int rngSt = rand()%50 + 1;
+	int rngSt = rand()%51 + 1;
 
 	player->Life_Points = 100.0;
 	player->Dexterity = rngD;

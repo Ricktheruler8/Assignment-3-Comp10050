@@ -12,11 +12,11 @@
 void HUMAN(struct Player *player){ // Assigns correct stats to Human type player
 
 
-		int rngD = rand()%100 + 1;
-		int rngL = rand()%100 + 1;
-		int rngM = rand()%100 + 1;
-		int rngS = rand()%100 + 1;
-		int rngSt = rand()%100 + 1;
+		int rngD = rand()%101 + 1;
+		int rngL = rand()%101 + 1;
+		int rngM = rand()%101 + 1;
+		int rngS = rand()%101 + 1;
+		int rngSt = rand()%101 + 1;
 
 		int sum = rngD+rngL+rngM+rngS+rngSt;
 
