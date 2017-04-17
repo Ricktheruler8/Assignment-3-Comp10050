@@ -9,7 +9,7 @@
 #include<time.h>
 #include"crossops.h"
 
-void HUMAN(struct Player *player){ // Assigns correct stats to Human type player
+void HUMAN(struct Player *player){ // Assigns correct stats to Human type player max of 300
 
 
 		int rngD = rand()%101 + 1;

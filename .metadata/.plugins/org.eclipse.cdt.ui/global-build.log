@@ -16720,3 +16720,2023 @@ Invoking: GCC C Linker
 gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
 Finished building target: CrossFire3
  
+20:24:41 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:44 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:26:52 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:34 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:29:37 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:35 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:33:13 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:15 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:38 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:34:45 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:35:04 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:41 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:36:45 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:15 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:181:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct Player *’ but argument is of type ‘int *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:181:35: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘int *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:181:49: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+subdir.mk:63: recipe for target 'main.o' failed
+      ^
+../main.c:181:61: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:181:88: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                                        ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:181:9: error: too many arguments to function ‘scoutPlayer’
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: declared here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct Player *’ but argument is of type ‘int *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:35: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘int *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:49: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:61: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:88: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                                        ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:196:9: error: too many arguments to function ‘scoutPlayer’
+         scoutPlayer(&enemyNcount, &enemyFcount, &player[i], foundSlots, foundSlotsFar, foundEnemies, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:101:6: note: declared here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+make: *** [main.o] Error 1
+20:44:09 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:198:26: error: expected expression before ‘)’ token
+         for(size_t k = 0;){
+                          ^
+../main.c:198:20: warning: unused variable ‘k’ [-Wunused-variable]
+         for(size_t k = 0;){
+                    ^
+make: *** [main.o] Error 1
+subdir.mk:63: recipe for target 'main.o' failed
+20:45:23 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:203:9: warning: ‘enemyNcount’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         printf("EnemiesFcount: %d\nNcount: %d\n",enemyNcount,enemyFcount);
+         ^
+../main.c:203:9: warning: ‘enemyFcount’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../main.c
+ 
+Building file: ../modCapabilties.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"modCapabilties.d" -MT"modCapabilties.o" -o "modCapabilties.o" "../modCapabilties.c"
+Finished building: ../modCapabilties.c
+ 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building file: ../reverseCapabilities.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reverseCapabilities.d" -MT"reverseCapabilities.o" -o "reverseCapabilities.o" "../reverseCapabilities.c"
+Finished building: ../reverseCapabilities.c
+ 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building file: ../slotAdj.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"slotAdj.d" -MT"slotAdj.o" -o "slotAdj.o" "../slotAdj.c"
+Finished building: ../slotAdj.c
+ 
+Building file: ../typeElf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeElf.d" -MT"typeElf.o" -o "typeElf.o" "../typeElf.c"
+Finished building: ../typeElf.c
+ 
+Building file: ../typeHuman.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeHuman.d" -MT"typeHuman.o" -o "typeHuman.o" "../typeHuman.c"
+Finished building: ../typeHuman.c
+ 
+Building file: ../typeOgre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeOgre.d" -MT"typeOgre.o" -o "typeOgre.o" "../typeOgre.c"
+Finished building: ../typeOgre.c
+ 
+Building file: ../typeWizard.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeWizard.d" -MT"typeWizard.o" -o "typeWizard.o" "../typeWizard.c"
+Finished building: ../typeWizard.c
+ 
+Building file: ../userInt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"userInt.d" -MT"userInt.o" -o "userInt.o" "../userInt.c"
+Finished building: ../userInt.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:49:59 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+20:50:09 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:21 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:110:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:110:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+subdir.mk:63: recipe for target 'assignType.o' failed
+make: *** [assignType.o] Error 1
+21:01:04 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:110:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:110:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+make: *** [assignType.o] Error 1
+subdir.mk:63: recipe for target 'assignType.o' failed
+21:01:08 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+subdir.mk:63: recipe for target 'assignType.o' failed
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+make: *** [assignType.o] Error 1
+21:01:11 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+subdir.mk:63: recipe for target 'assignType.o' failed
+make: *** [assignType.o] Error 1
+21:01:36 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+make: *** [assignType.o] Error 1
+subdir.mk:63: recipe for target 'assignType.o' failed
+21:02:27 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+subdir.mk:63: recipe for target 'assignType.o' failed
+make: *** [assignType.o] Error 1
+21:02:40 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+subdir.mk:63: recipe for target 'assignType.o' failed
+make: *** [assignType.o] Error 1
+21:02:45 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+make: *** [assignType.o] Error 1
+subdir.mk:63: recipe for target 'assignType.o' failed
+21:03:31 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+In file included from ../assignType.c:11:0:
+../crossops.h:108:136: error: redefinition of parameter ‘foundEnemies’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                                                        ^
+../crossops.h:108:108: note: previous definition of ‘foundEnemies’ was here
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemy *foundEnemies, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+                                                                                                            ^
+subdir.mk:63: recipe for target 'assignType.o' failed
+make: *** [assignType.o] Error 1
+21:03:51 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:167:7: error: ‘foundEnemiesFar’ undeclared (first use in this function)
+       foundEnemiesFar = calloc(49, sizeof(struct enemyFar));
+       ^
+../main.c:167:7: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:183:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:198:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:64: error: ‘struct enemy’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemies[k].enemyFcount == 1){
+                                                                ^
+../main.c:205:41: error: ‘struct enemy’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemies[k].enemyFcount;
+subdir.mk:63: recipe for target 'main.o' failed
+                                         ^
+../main.c:162:21: warning: unused variable ‘foundEnemiesfar’ [-Wunused-variable]
+       struct enemy *foundEnemiesfar;
+                     ^
+make: *** [main.o] Error 1
+21:04:21 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:183:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:198:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:64: error: ‘struct enemy’ has no member named ‘enemyFcount’
+subdir.mk:63: recipe for target 'main.o' failed
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemies[k].enemyFcount == 1){
+                                                                ^
+../main.c:205:41: error: ‘struct enemy’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemies[k].enemyFcount;
+                                         ^
+../main.c:162:24: warning: variable ‘foundEnemiesFar’ set but not used [-Wunused-but-set-variable]
+       struct enemyFar *foundEnemiesFar;
+                        ^
+make: *** [main.o] Error 1
+21:05:10 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:183:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:198:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemies, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:108:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+Finished building: ../main.c
+ 
+Building file: ../modCapabilties.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"modCapabilties.d" -MT"modCapabilties.o" -o "modCapabilties.o" "../modCapabilties.c"
+Finished building: ../modCapabilties.c
+ 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building file: ../reverseCapabilities.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reverseCapabilities.d" -MT"reverseCapabilities.o" -o "reverseCapabilities.o" "../reverseCapabilities.c"
+Finished building: ../reverseCapabilities.c
+ 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building file: ../slotAdj.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"slotAdj.d" -MT"slotAdj.o" -o "slotAdj.o" "../slotAdj.c"
+Finished building: ../slotAdj.c
+ 
+Building file: ../typeElf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeElf.d" -MT"typeElf.o" -o "typeElf.o" "../typeElf.c"
+Finished building: ../typeElf.c
+ 
+Building file: ../typeHuman.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeHuman.d" -MT"typeHuman.o" -o "typeHuman.o" "../typeHuman.c"
+Finished building: ../typeHuman.c
+ 
+Building file: ../typeOgre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeOgre.d" -MT"typeOgre.o" -o "typeOgre.o" "../typeOgre.c"
+Finished building: ../typeOgre.c
+ 
+Building file: ../typeWizard.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeWizard.d" -MT"typeWizard.o" -o "typeWizard.o" "../typeWizard.c"
+Finished building: ../typeWizard.c
+ 
+Building file: ../userInt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"userInt.d" -MT"userInt.o" -o "userInt.o" "../userInt.c"
+Finished building: ../userInt.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:05:40 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:08:13 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:08:16 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:32 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:10:34 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:13:42 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:202:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:202:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:204:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:205:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:16:19 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:35: error: expected expression before ‘int’
+       enemynCount = malloc(sizeof int);
+                                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+../main.c:163:20: warning: variable ‘enemynCount’ set but not used [-Wunused-but-set-variable]
+       struct count enemynCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:16:31 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:35: error: expected expression before ‘int’
+       enemynCount = malloc(sizeof int *);
+                                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+../main.c:163:20: warning: variable ‘enemynCount’ set but not used [-Wunused-but-set-variable]
+       struct count enemynCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:16:48 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:19: error: incompatible types when assigning to type ‘struct count’ from type ‘void *’
+       enemynCount = malloc(sizeof enemynCount);
+                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:16:51 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:19: error: incompatible types when assigning to type ‘struct count’ from type ‘void *’
+       enemynCount = malloc(sizeof enemynCount);
+                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:16:52 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:19: error: incompatible types when assigning to type ‘struct count’ from type ‘void *’
+       enemynCount = malloc(sizeof enemynCount);
+                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:17:08 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:170:19: error: incompatible types when assigning to type ‘struct count’ from type ‘void *’
+       enemynCount = malloc(sizeof (struct count));
+                   ^
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:20: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count enemyfCount;
+                    ^
+../main.c:163:20: warning: variable ‘enemynCount’ set but not used [-Wunused-but-set-variable]
+       struct count enemynCount;
+                    ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:17:21 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:205:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:205:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:207:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:208:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: unused variable ‘enemyfCount’ [-Wunused-variable]
+       struct count *enemyfCount;
+                     ^
+../main.c:163:21: warning: variable ‘enemynCount’ set but not used [-Wunused-but-set-variable]
+       struct count *enemynCount;
+                     ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:17:35 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘enemyfCount’ set but not used [-Wunused-but-set-variable]
+       struct count *enemyfCount;
+                     ^
+../main.c:163:21: warning: variable ‘enemynCount’ set but not used [-Wunused-but-set-variable]
+       struct count *enemynCount;
+                     ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:18:59 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+make: *** [main.o] Error 1
+subdir.mk:63: recipe for target 'main.o' failed
+21:19:02 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:20:40 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:187:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+subdir.mk:63: recipe for target 'main.o' failed
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+make: *** [main.o] Error 1
+21:22:05 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:187:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+subdir.mk:63: recipe for target 'main.o' failed
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+make: *** [main.o] Error 1
+21:23:38 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:187:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+subdir.mk:63: recipe for target 'main.o' failed
+      ^
+../main.c:187:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:21: warning: passing argument 1 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:45: warning: passing argument 3 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                             ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:99: warning: passing argument 7 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                                   ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count *nCount, struct count *fCount, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+make: *** [main.o] Error 1
+21:23:59 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:187:21: error: incompatible type for argument 1 of ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+subdir.mk:63: recipe for target 'main.o' failed
+../main.c:187:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:187:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:21: error: incompatible type for argument 1 of ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                     ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct count’ but argument is of type ‘struct Player *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:33: warning: passing argument 2 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                 ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct Player *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:60: warning: passing argument 4 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                            ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct slot *’ but argument is of type ‘struct enemy *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:74: warning: passing argument 5 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                          ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemy *’ but argument is of type ‘struct enemyFar *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:91: warning: passing argument 6 of ‘scoutPlayer’ from incompatible pointer type [-Wincompatible-pointer-types]
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+                                                                                           ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: expected ‘struct enemyFar *’ but argument is of type ‘struct slot *’
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:202:9: error: too few arguments to function ‘scoutPlayer’
+         scoutPlayer(&player[i], foundSlots, foundSlotsFar, foundEnemies, foundEnemiesFar, upLeft, upRight, downLeft, downRight);
+         ^
+In file included from ../main.c:12:0:
+../crossops.h:114:6: note: declared here
+ void scoutPlayer(struct count, struct Player *player, struct slot *foundSLots, struct slot *foundSlotsFar, struct enemy *foundEnemies, struct enemyFar *foundEnemiesFar, struct slot * upLeft, struct slot * upRight, struct slot * downLeft, struct slot * downRight);
+      ^
+../main.c:206:28: error: ‘struct enemy’ has no member named ‘enemyNcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                            ^
+../main.c:206:67: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(foundEnemies[k].enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                                   ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+../main.c:164:21: warning: variable ‘fCount’ set but not used [-Wunused-but-set-variable]
+       struct count *fCount;
+                     ^
+../main.c:163:21: warning: variable ‘nCount’ set but not used [-Wunused-but-set-variable]
+       struct count *nCount;
+                     ^
+make: *** [main.o] Error 1
+21:24:56 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:206:19: error: request for member ‘enemyNcount’ in something not a structure or union
+          if(nCount.enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                   ^
+../main.c:206:58: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+          if(nCount.enemyNcount == 1 && foundEnemiesFar[k].enemyFcount == 1){
+                                                          ^
+../main.c:208:41: error: ‘struct enemy’ has no member named ‘enemyNcount’
+           enemyNcount += foundEnemies[k].enemyNcount;
+                                         ^
+../main.c:209:44: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+           enemyFcount += foundEnemiesFar[k].enemyFcount;
+                                            ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:27:25 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:208:31: error: request for member ‘enemyNcount’ in something not a structure or union
+           enemyNcount = nCount.enemyNcount;
+                               ^
+../main.c:209:31: error: request for member ‘enemyFcount’ in something not a structure or union
+           enemyFcount = fCount.enemyFcount;
+                               ^
+make: *** [main.o] Error 1
+subdir.mk:63: recipe for target 'main.o' failed
+21:27:30 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:208:31: error: request for member ‘enemyNcount’ in something not a structure or union
+           enemyNcount = nCount.enemyNcount;
+                               ^
+../main.c:209:31: error: request for member ‘enemyFcount’ in something not a structure or union
+           enemyFcount = fCount.enemyFcount;
+                               ^
+subdir.mk:63: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:28:24 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../modCapabilties.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"modCapabilties.d" -MT"modCapabilties.o" -o "modCapabilties.o" "../modCapabilties.c"
+Finished building: ../modCapabilties.c
+ 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building file: ../reverseCapabilities.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reverseCapabilities.d" -MT"reverseCapabilities.o" -o "reverseCapabilities.o" "../reverseCapabilities.c"
+Finished building: ../reverseCapabilities.c
+ 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+../scoutPlayer.c: In function ‘scoutPlayer’:
+../scoutPlayer.c:64:6: error: expected expression before ‘.’ token
+      .enemyNcount = 1;
+      ^
+../scoutPlayer.c:66:164: error: ‘struct enemy’ has no member named ‘enemyNcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemies[i].enemyRow, foundEnemies[i].enemyCol, foundEnemies[i].enemyTag, foundEnemies[i].near_Far, foundEnemies[i].enemyNcount);
+                                                                                                                                                                    ^
+../scoutPlayer.c:89:24: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+      foundEnemiesFar[i].enemyFcount = 1;
+                        ^
+../scoutPlayer.c:91:179: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemiesFar[i].enemyRow, foundEnemiesFar[i].enemyCol, foundEnemiesFar[i].enemyTag, foundEnemiesFar[i].near_Far, foundEnemiesFar[i].enemyFcount);
+subdir.mk:63: recipe for target 'scoutPlayer.o' failed
+                                                                                                                                                                                   ^
+make: *** [scoutPlayer.o] Error 1
+21:29:47 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+../scoutPlayer.c: In function ‘scoutPlayer’:
+../scoutPlayer.c:66:164: error: ‘struct enemy’ has no member named ‘enemyNcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemies[i].enemyRow, foundEnemies[i].enemyCol, foundEnemies[i].enemyTag, foundEnemies[i].near_Far, foundEnemies[i].enemyNcount);
+                                                                                                                                                                    ^
+../scoutPlayer.c:91:179: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemiesFar[i].enemyRow, foundEnemiesFar[i].enemyCol, foundEnemiesFar[i].enemyTag, foundEnemiesFar[i].near_Far, foundEnemiesFar[i].enemyFcount);
+                                                                                                                                                                                   ^
+make: *** [scoutPlayer.o] Error 1
+subdir.mk:63: recipe for target 'scoutPlayer.o' failed
+21:29:53 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+../scoutPlayer.c: In function ‘scoutPlayer’:
+../scoutPlayer.c:66:164: error: ‘struct enemy’ has no member named ‘enemyNcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemies[i].enemyRow, foundEnemies[i].enemyCol, foundEnemies[i].enemyTag, foundEnemies[i].near_Far, foundEnemies[i].enemyNcount);
+                                                                                                                                                                    ^
+../scoutPlayer.c:91:179: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemiesFar[i].enemyRow, foundEnemiesFar[i].enemyCol, foundEnemiesFar[i].enemyTag, foundEnemiesFar[i].near_Far, foundEnemiesFar[i].enemyFcount);
+                                                                                                                                                                                   ^
+subdir.mk:63: recipe for target 'scoutPlayer.o' failed
+make: *** [scoutPlayer.o] Error 1
+21:31:22 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+../scoutPlayer.c: In function ‘scoutPlayer’:
+../scoutPlayer.c:91:179: error: ‘struct enemyFar’ has no member named ‘enemyFcount’
+      printf("foundEnemies %d %d %d %d %d\n",foundEnemiesFar[i].enemyRow, foundEnemiesFar[i].enemyCol, foundEnemiesFar[i].enemyTag, foundEnemiesFar[i].near_Far, foundEnemiesFar[i].enemyFcount);
+                                                                                                                                                                                   ^
+subdir.mk:63: recipe for target 'scoutPlayer.o' failed
+make: *** [scoutPlayer.o] Error 1
+21:31:42 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building file: ../slotAdj.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"slotAdj.d" -MT"slotAdj.o" -o "slotAdj.o" "../slotAdj.c"
+Finished building: ../slotAdj.c
+ 
+Building file: ../typeElf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeElf.d" -MT"typeElf.o" -o "typeElf.o" "../typeElf.c"
+Finished building: ../typeElf.c
+ 
+Building file: ../typeHuman.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeHuman.d" -MT"typeHuman.o" -o "typeHuman.o" "../typeHuman.c"
+Finished building: ../typeHuman.c
+ 
+Building file: ../typeOgre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeOgre.d" -MT"typeOgre.o" -o "typeOgre.o" "../typeOgre.c"
+Finished building: ../typeOgre.c
+ 
+Building file: ../typeWizard.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeWizard.d" -MT"typeWizard.o" -o "typeWizard.o" "../typeWizard.c"
+Finished building: ../typeWizard.c
+ 
+Building file: ../userInt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"userInt.d" -MT"userInt.o" -o "userInt.o" "../userInt.c"
+Finished building: ../userInt.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:32:25 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+21:32:28 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:58:55 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+../movement.c: In function ‘movement’:
+../movement.c:27:17: warning: passing argument 1 of ‘ReverseModStr’ from incompatible pointer type [-Wincompatible-pointer-types]
+   ReverseModStr(&player); // reverse capability mod for strength before player moves to new slot ensures capabilites modification based on slot type does not stack
+                 ^
+In file included from ../movement.c:11:0:
+../crossops.h:107:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ReverseModStr(struct Player *player);
+      ^
+../movement.c:28:17: warning: passing argument 1 of ‘ReverseModMag’ from incompatible pointer type [-Wincompatible-pointer-types]
+   ReverseModMag(&player); // same ^
+                 ^
+In file included from ../movement.c:11:0:
+../crossops.h:108:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ReverseModMag(struct Player *player);
+      ^
+../movement.c:33:34: error: ‘Hill’ undeclared (first use in this function)
+    if(strcmp(player->Current_Pos,Hill)==0){ // compares current position to char array Hill if 0 modify strength according to game rules
+                                  ^
+../movement.c:33:34: note: each undeclared identifier is reported only once for each function it appears in
+../movement.c:34:12: warning: passing argument 1 of ‘ModStr’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModStr(&player); // calls ModStr function NOTE: See CrossFunct.c line 16 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:105:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModStr(struct Player *player);
+      ^
+../movement.c:36:39: error: ‘City’ undeclared (first use in this function)
+    else if(strcmp(player->Current_Pos,City)==0){ // same ^
+                                       ^
+../movement.c:37:12: warning: passing argument 1 of ‘ModMag’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModMag(&player); // calls ModMag function NOTE: See CrossFunct.c line 27 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:106:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModMag(struct Player *player);
+      ^
+subdir.mk:63: recipe for target 'movement.o' failed
+make: *** [movement.o] Error 1
+22:00:02 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+../movement.c: In function ‘movement’:
+../movement.c:29:17: warning: passing argument 1 of ‘ReverseModStr’ from incompatible pointer type [-Wincompatible-pointer-types]
+   ReverseModStr(&player); // reverse capability mod for strength before player moves to new slot ensures capabilites modification based on slot type does not stack
+                 ^
+In file included from ../movement.c:11:0:
+../crossops.h:107:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ReverseModStr(struct Player *player);
+      ^
+../movement.c:30:17: warning: passing argument 1 of ‘ReverseModMag’ from incompatible pointer type [-Wincompatible-pointer-types]
+   ReverseModMag(&player); // same ^
+                 ^
+In file included from ../movement.c:11:0:
+../crossops.h:108:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ReverseModMag(struct Player *player);
+      ^
+../movement.c:36:12: warning: passing argument 1 of ‘ModStr’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModStr(&player); // calls ModStr function NOTE: See CrossFunct.c line 16 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:105:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModStr(struct Player *player);
+      ^
+../movement.c:39:12: warning: passing argument 1 of ‘ModMag’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModMag(&player); // calls ModMag function NOTE: See CrossFunct.c line 27 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:106:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModMag(struct Player *player);
+      ^
+Finished building: ../movement.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+22:00:18 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+../movement.c: In function ‘movement’:
+../movement.c:36:12: warning: passing argument 1 of ‘ModStr’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModStr(&player); // calls ModStr function NOTE: See CrossFunct.c line 16 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:105:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModStr(struct Player *player);
+      ^
+../movement.c:39:12: warning: passing argument 1 of ‘ModMag’ from incompatible pointer type [-Wincompatible-pointer-types]
+     ModMag(&player); // calls ModMag function NOTE: See CrossFunct.c line 27 for function definition.
+            ^
+In file included from ../movement.c:11:0:
+../crossops.h:106:6: note: expected ‘struct Player *’ but argument is of type ‘struct Player **’
+ void ModMag(struct Player *player);
+      ^
+Finished building: ../movement.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+22:00:25 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+22:09:18 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+22:14:25 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+23:00:23 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./slotTypes.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o ./userInt.o   
+Finished building target: CrossFire3
+ 
+23:32:10 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../assignType.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"assignType.d" -MT"assignType.o" -o "assignType.o" "../assignType.c"
+Finished building: ../assignType.c
+ 
+Building file: ../attack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"attack.d" -MT"attack.o" -o "attack.o" "../attack.c"
+Finished building: ../attack.c
+ 
+Building file: ../boardOps.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"boardOps.d" -MT"boardOps.o" -o "boardOps.o" "../boardOps.c"
+Finished building: ../boardOps.c
+ 
+Building file: ../checkAdjSlot.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"checkAdjSlot.d" -MT"checkAdjSlot.o" -o "checkAdjSlot.o" "../checkAdjSlot.c"
+Finished building: ../checkAdjSlot.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../modCapabilties.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"modCapabilties.d" -MT"modCapabilties.o" -o "modCapabilties.o" "../modCapabilties.c"
+Finished building: ../modCapabilties.c
+ 
+Building file: ../movement.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"movement.d" -MT"movement.o" -o "movement.o" "../movement.c"
+Finished building: ../movement.c
+ 
+Building file: ../reverseCapabilities.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"reverseCapabilities.d" -MT"reverseCapabilities.o" -o "reverseCapabilities.o" "../reverseCapabilities.c"
+Finished building: ../reverseCapabilities.c
+ 
+Building file: ../scoutPlayer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scoutPlayer.d" -MT"scoutPlayer.o" -o "scoutPlayer.o" "../scoutPlayer.c"
+Finished building: ../scoutPlayer.c
+ 
+Building file: ../slotAdj.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"slotAdj.d" -MT"slotAdj.o" -o "slotAdj.o" "../slotAdj.c"
+Finished building: ../slotAdj.c
+ 
+Building file: ../typeElf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeElf.d" -MT"typeElf.o" -o "typeElf.o" "../typeElf.c"
+Finished building: ../typeElf.c
+ 
+Building file: ../typeHuman.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeHuman.d" -MT"typeHuman.o" -o "typeHuman.o" "../typeHuman.c"
+Finished building: ../typeHuman.c
+ 
+Building file: ../typeOgre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeOgre.d" -MT"typeOgre.o" -o "typeOgre.o" "../typeOgre.c"
+Finished building: ../typeOgre.c
+ 
+Building file: ../typeWizard.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"typeWizard.d" -MT"typeWizard.o" -o "typeWizard.o" "../typeWizard.c"
+Finished building: ../typeWizard.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o   
+Finished building target: CrossFire3
+ 
+23:32:17 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+make: Nothing to be done for 'all'.
+23:34:43 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:348:8: error: ‘foundSlotsFar’ undeclared (first use in this function)
+   free(foundSlotsFar);
+        ^
+../main.c:348:8: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:349:8: error: ‘foundEnemies’ undeclared (first use in this function)
+   free(foundEnemies);
+        ^
+../main.c:350:8: error: ‘foundEnemiesFar’ undeclared (first use in this function)
+   free(foundEnemiesFar);
+        ^
+../main.c:351:8: error: ‘nCount’ undeclared (first use in this function)
+   free(nCount);
+        ^
+../main.c:352:8: error: ‘fCount’ undeclared (first use in this function)
+   free(fCount);
+        ^
+subdir.mk:57: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:35:15 **** Incremental Build of configuration Debug for project CrossFire3 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: CrossFire3
+Invoking: GCC C Linker
+gcc  -o "CrossFire3"  ./assignType.o ./attack.o ./boardOps.o ./checkAdjSlot.o ./main.o ./modCapabilties.o ./movement.o ./reverseCapabilities.o ./scoutPlayer.o ./slotAdj.o ./typeElf.o ./typeHuman.o ./typeOgre.o ./typeWizard.o   
+Finished building target: CrossFire3
+ 

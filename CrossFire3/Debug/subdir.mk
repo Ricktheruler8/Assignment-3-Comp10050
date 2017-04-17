@@ -14,12 +14,10 @@ C_SRCS += \
 ../reverseCapabilities.c \
 ../scoutPlayer.c \
 ../slotAdj.c \
-../slotTypes.c \
 ../typeElf.c \
 ../typeHuman.c \
 ../typeOgre.c \
-../typeWizard.c \
-../userInt.c 
+../typeWizard.c 
 
 OBJS += \
 ./assignType.o \
@@ -32,12 +30,10 @@ OBJS += \
 ./reverseCapabilities.o \
 ./scoutPlayer.o \
 ./slotAdj.o \
-./slotTypes.o \
 ./typeElf.o \
 ./typeHuman.o \
 ./typeOgre.o \
-./typeWizard.o \
-./userInt.o 
+./typeWizard.o 
 
 C_DEPS += \
 ./assignType.d \
@@ -50,12 +46,10 @@ C_DEPS += \
 ./reverseCapabilities.d \
 ./scoutPlayer.d \
 ./slotAdj.d \
-./slotTypes.d \
 ./typeElf.d \
 ./typeHuman.d \
 ./typeOgre.d \
-./typeWizard.d \
-./userInt.d 
+./typeWizard.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

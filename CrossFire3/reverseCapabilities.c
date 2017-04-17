@@ -19,7 +19,7 @@ void ReverseModStr(struct Player *player){ // reverts capabilities used to stop 
 		player->Strength -= 10;
 	}
 }
-void ReverseModMag(struct Player *player){ // same ^
+void ReverseModMag(struct Player *player){ // same as above ^
 
 	if(player->Smartness > 60){
 

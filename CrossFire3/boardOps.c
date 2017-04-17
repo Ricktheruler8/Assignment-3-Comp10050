@@ -10,7 +10,7 @@
 #include <string.h>
 #include "crossops.h"
 
-extern char Hill[5],Ground[7],City[5];
+extern char Hill[5],Ground[7],City[5]; // extern chars used to assign slot types
 
 void createBoard(int boardSize, struct slot **upLeft, struct slot **upRight, struct slot **downLeft, struct slot **downRight, struct slot ** board){
 

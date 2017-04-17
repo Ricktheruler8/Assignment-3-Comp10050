@@ -12,7 +12,7 @@
 
 void ELF(struct Player *player){ // Assigns correct stats to elf type player
 
-	int max=101,min=60,minM=51,maxM=80,minS=70,maxS=101;
+	int max=101,min=60,minM=51,maxM=80,minS=70,maxS=101; // min and max values used for random numbers
 
 	int rngD = rand()%101 + 1;
 	int rngL = rand()%(max-min)+min;

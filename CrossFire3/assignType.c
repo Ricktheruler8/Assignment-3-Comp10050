@@ -18,7 +18,7 @@ void AssignType(struct Player *player){ // Assigns type to player depending on t
 
 		OGRE(player);
 	}
-	else if(strcmp(player->Player_Type,str2)==0 || strcmp(player->Player_Type,str6)==0){
+	else if(strcmp(player->Player_Type,str2)==0 || strcmp(player->Player_Type,str6)==0){ // if player is elf
 
 		ELF(player);
 	}

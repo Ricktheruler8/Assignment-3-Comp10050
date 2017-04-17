@@ -12,7 +12,7 @@
 
 void WIZARD(struct Player *player){ // Assigns correct stats to wizard type player
 
-	int minM=80,maxM=101,minL=50,maxL=101;
+	int minM=80,maxM=101,minL=50,maxL=101; // min and max values used for random numbers
 
 	int rngD = rand()%100 + 1;
 	int rngL = rand()%(maxL-minL)+minL;

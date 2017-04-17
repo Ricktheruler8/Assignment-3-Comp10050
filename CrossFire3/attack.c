@@ -25,9 +25,9 @@ void Attack(struct Player *attacker, struct Player *attacked){
 void farAttack(struct Player *attacker, struct Player *attacked){
 
 	float St = attacker->Strength;	//float to hold the value of the attacker players strength.
-	float Lp = attacked->Life_Points;
+	float Lp = attacked->Life_Points; // store attacked players life points
 
-		if(attacked->Dexterity >= attacker->Dexterity)
+		if(attacked->Dexterity >= attacker->Dexterity) // modifies on certain condition given with assignment
 		{
 			attacked->Life_Points = Lp;
 		}

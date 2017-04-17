@@ -19,7 +19,7 @@ void ModStr(struct Player *player){ // modifies capabilities based on rules of g
 		player->Strength += 10;
 	}
 }
-void ModMag(struct Player *player){ // same ^
+void ModMag(struct Player *player){ // same  as above^
 
 	if(player->Smartness > 60){
 
